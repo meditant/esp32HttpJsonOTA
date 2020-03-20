@@ -1,0 +1,8 @@
+{
+	"name": "ESP32APPFR",
+	"type": "FIRMWARE",
+	"version": 1,
+    "host": "storage.googleapis.com",
+    "port": 80,
+    "bin": "/update/esp32ehjo/fw-esp32ehjo.bin"
+}
