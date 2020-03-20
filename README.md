@@ -3,7 +3,7 @@ ESP32 HTTP OTA Firmware and SPIFFS update with Json config and version control
 Perform an OTA update of firmware or SPIFFS from a bin located on a webserver (HTTP Only)  
 Date: Mars 2020  
 Author: Franck RONDOT https://www.franck-rondot.com  
-Based on esp32FOTA by Chris Joyce <https://github.com/chrisjoyce911/esp32FOTA/esp32FOTA>
+Based on esp32FOTA by Chris Joyce <https://github.com/chrisjoyce911/esp32FOTA/esp32FOTA>  
 I changed somes codes and add SPIFFS update support  
 
 ## Nota : 
