@@ -15,6 +15,29 @@ If you have some trouble to connect deactivate the WAF on your sub domain, some 
 You could try CURL to verify your connection ie : curl --head https://update.website.com/appname/check.php
 
 ## Example
+### json file for sketch firmware
+```json
+{
+	"name": "ESP32APPFR",
+	"type": "FIRMWARE",
+	"version": 1,
+	"host": "storage.googleapis.com",
+	"port": 80,
+	"bin": "/update/esp32ehjo/fw-esp32ehjo.bin"
+}
+```
+### json file for SPIFFS
+```json
+{
+    "name": "ESP32APPFR",
+    "type": "SPIFFS",
+    "version": 1,
+    "host": "storage.googleapis.com",
+    "port": 80,
+    "bin": "/update/esp32ehjo/fs-esp32ehjo.bin"
+}
+```
+### Cpp example
 ```cpp
   #include <Arduino.h>
   #include <WiFi.h>
