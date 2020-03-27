@@ -1,0 +1,29 @@
+{
+    "name": "esp32HttpJsonOTA",
+    "keywords": "esp32, OTA, json, firmware, SPIFFS, HTTP",
+    "description": "Perform an OTA update of firmware or SPIFFS from a bin located on a webserver (HTTP Only)",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/meditant/esp32HttpJsonOTA.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Franck RONDOT",
+        "email": "contact@franck-rondot.com",
+        "url": "https://www.franck-rondot.com",
+        "maintainer": true
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "ArduinoJson",
+        "authors": "Benoît Blanchon",
+        "frameworks": "arduino"
+      }
+    ],
+    "version": "1.0",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
